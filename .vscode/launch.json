@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Chocola",
+      "request": "launch",
+      "mainClass": "Chocola",
+      "projectName": "JAVA LORD_4b2a35dd"
+    },
+    {
+      "type": "java",
+      "name": "TrappedWater",
+      "request": "launch",
+      "mainClass": "Array.TrappedWater",
+      "projectName": "JAVA LORD_4b2a35dd"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

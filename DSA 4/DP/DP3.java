@@ -1,3 +1,7 @@
+// 0-1 Knapsack
+// using simple recursion
+import java.util.*;
+
 public class DP3 {
     public static int kanpsack(int val[], int wt[], int W, int n) {
         if (W == 0 || n == 0) {
@@ -21,3 +25,4 @@ public class DP3 {
         System.out.println(kanpsack(val, wt, W, val.length));
     }
 }
+

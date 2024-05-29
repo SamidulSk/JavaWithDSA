@@ -48,7 +48,7 @@ public class Graph1{
     // how to print neighbors of any vertex
     // neighbors of 2
     for(int i=0;i<graph[2].size();i++){
-        Edge e= graph[2].get(i);   // define all edge one by one
+        Edge e= graph[2].get(i);   // access all edge one by one
         System.out.print(" 2->"+e.dest);
     }
     }
