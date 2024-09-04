@@ -48,7 +48,7 @@ public class Graph2 {
     }
  
     // write function for BFS O(V+E)
-    public static void bfs(ArrayList<Edge>[] graph) { // parameter is a array
+    public static void bfs(ArrayList<Edge>[] graph) { // parameter is a arraylist
         Queue<Integer> q = new LinkedList<>();
         boolean visited[] = new boolean[graph.length];
         q.add(0); // source =0
